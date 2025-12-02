@@ -1,0 +1,4 @@
+baseURL = 'https://tonedesu.github.io/'
+languageCode = 'en-us'
+title = 'Learning Go/Hugo and making my website'
+theme = 'ananke'
