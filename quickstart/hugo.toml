@@ -3,5 +3,11 @@ languageCode = 'en-us'
 title = 'Learning Go/Hugo and making my website'
 theme = 'ananke'
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ':cacheDir/images'
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
